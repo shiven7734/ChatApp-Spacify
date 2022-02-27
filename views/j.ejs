@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="/css/s.css">
+
+</head>
+<body>
+<div id="hi">
+
+    <h2>Chatify</h2>
+    <div id="b">
+        <button><a href="/">Leave Space</a></button>
+    </div>
+    <div class="parent">
+        <div class="mes">
+            <p id="m">hi</p>
+            <p id="txt">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque deserunt quas earum culpa eligendi dignissimos veniam voluptas, accusamus adipisci deleniti nostrum modi minima laborum odio ut, suscipit vero dolorem quibusdam?
+            </p>
+    
+        </div>
+
+    </div>
+  
+   
+    <div>
+        <h3 >
+            Space Name:<span id="room"></span>
+
+        </h3>
+        <h3>Users</h3>
+        <ul id="user">
+
+        </ul>
+
+<div id="mess">
+    <form id="chat">
+    <input type="text" placeholder="Type Something...." id="ms">
+    <button type="button" id="send">Send</button>
+    </form>
+</div>
+        
+    </div>
+
+
+
+
+
+
+</div>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.3/qs.min.js" integrity="sha512-juaCj8zi594KHQqb92foyp87mCSriYjw3BcTHaXsAn4pEB1YWh+z+XQScMxIxzsjfM4BeVFV3Ij113lIjWiC2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

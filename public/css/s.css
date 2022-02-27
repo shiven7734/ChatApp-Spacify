@@ -1,0 +1,9 @@
+#bg{
+    text-align: center;
+    position: relative;
+    left: 120px;
+    top: 120px;
+}
+body{
+    background-color: aqua;
+}
